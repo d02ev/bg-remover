@@ -15,8 +15,8 @@ export default function useBackgroundRemover() {
     
     // Config for the removal tool
     const config = {
-      debug: false,
-      progress: (key, current, total) => {},
+      publicPath: '/assets/imgly/', // Point to where we copied fields
+      debug: true,
       model: 'medium', // Balance between speed and quality
     };
 
